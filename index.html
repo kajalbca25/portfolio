@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kajal Lokhande | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+    <nav class="navbar">
+        <a href="#home" class="logo">My Portfolio<span>.</span></a>    <button class="menu-btn" id="menuBtn"
+            aria-label="Toggle navigation"
+            aria-expanded="false">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+</header><main><section id="home" class="hero">
+    <div class="hero-content">
+        <p class="tagline">WELCOME TO MY PORTFOLIO</p>    <h1>Hello, I'm <span>Kajal Lokhande</span></h1>
+
+    <h2>BCA Student | Aspiring Web Developer</h2>
+
+    <p>
+        I enjoy creating attractive, responsive and user-friendly
+        websites using HTML, CSS and JavaScript.
+        I am passionate about learning new technologies
+        and improving my technical skills.
+    </p>
+
+    <a href="#projects" class="btn">View My Projects</a>
+    <a href="#contact" class="btn btn-outline">Contact Me</a>
+</div>
+
+<div class="profile-circle">KL</div>
+
+</section><section id="about" class="section">
+    <h2>About Me</h2><p class="section-text">
+    I am Kajal Lokhande, a Bachelor of Computer Applications (BCA)
+    student interested in web designing and software development.
+    I have basic knowledge of C, C++, HTML, CSS, JavaScript
+    and MS Office. I enjoy learning new technologies,
+    solving problems and developing practical projects.
+    My goal is to improve my technical knowledge and build
+    useful and user-friendly web applications.
+</p>
+
+</section><section id="skills" class="section alternate">
+    <h2>My Skills</h2><div class="cards">
+    <div class="card">
+        <h3>C Programming</h3>
+        <p>Basic programming and problem-solving.</p>
+    </div>
+
+    <div class="card">
+        <h3>C++</h3>
+        <p>Basic programming and object-oriented concepts.</p>
+    </div>
+
+    <div class="card">
+        <h3>HTML5</h3>
+        <p>Creating the structure of webpages.</p>
+    </div>
+
+    <div class="card">
+        <h3>CSS3</h3>
+        <p>Styling webpages and responsive design.</p>
+    </div>
+
+    <div class="card">
+        <h3>JavaScript</h3>
+        <p>Adding interactivity to websites.</p>
+    </div>
+
+    <div class="card">
+        <h3>MS Office</h3>
+        <p>Creating documents and presentations.</p>
+    </div>
+</div>
+
+</section><section id="projects" class="section">
+    <h2>My Projects</h2><div class="cards">
+
+    <div class="card project-card">
+        <h3>JS Fitness Club</h3>
+        <p>
+            A digital web portal designed to display gym
+            information, membership plans, facilities and services.
+        </p>
+        <span>HTML · CSS · JavaScript</span>
+    </div>
+
+    <div class="card project-card">
+        <h3>Fruit Inventory</h3>
+        <p>
+            A C++ program that allows users to add, delete
+            and display fruit names using an array.
+        </p>
+        <span>C++ · Arrays</span>
+    </div>
+
+    <div class="card project-card">
+        <h3>Personal Portfolio</h3>
+        <p>
+            A responsive website to present my profile,
+            technical skills, projects and contact information.
+        </p>
+        <span>HTML · CSS · JavaScript</span>
+    </div>
+
+</div>
+
+</section><section id="contact" class="section alternate">
+    <h2>Contact Me</h2><p class="section-text">
+    Have a project or opportunity to discuss?
+    Feel free to send me a message.
+</p>
+
+<form id="contactForm" action="contact.php" method="POST">
+
+    <input type="text" name="name"
+           placeholder="Your Name"
+           aria-label="Your Name" required>
+
+    <input type="email" name="email"
+           placeholder="Your Email"
+           aria-label="Your Email" required>
+
+    <input type="text" name="subject"
+           placeholder="Subject"
+           aria-label="Subject" required>
+
+    <textarea name="message"
+              placeholder="Your Message"
+              aria-label="Your Message"
+              rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+
+    <p id="formMessage" role="status"></p>
+
+</form>
+
+</section></main><footer>
+    <p>© <span id="year"></span> Kajal Lokhande. All Rights Reserved.</p>
+</footer><script src="script.js"></script></body>
+</html>
+
